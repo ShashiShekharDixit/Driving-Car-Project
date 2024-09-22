@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Self Driving Car</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <canvas id="carCanvas"></canvas>
+   <canvas id="networkCanvas"></canvas>
+   <div class="arrows">
+      <button id="left-btn" onmousedown="moveLeft()">←</button>
+      <button id="right-btn">→</button>
+   </div>
+   <script src="network.js"></script>
+   <script src="visualizer.js"></script>
+   <script src="sensor.js"></script>
+   <script src="utils.js"></script>
+   <script src="road.js"></script>
+   <script src="controls.js"></script>
+   <script src="car.js"></script>
+   <script src="main.js"></script>
+</body>
+
+</html>
